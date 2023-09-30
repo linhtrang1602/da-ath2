@@ -1,0 +1,160 @@
+.frameMainMenuChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #36a248;
+  width: 1440px;
+  height: 290px;
+}
+.contactUsNow {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 35px;
+}
+.biinstagramIcon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.biinstagramParent,
+.contactUsNowParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.contactUsNowParent {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.enterYourEmail,
+.getStartedNoew {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 286px;
+}
+.enterYourEmail {
+  top: 15px;
+  left: 20px;
+  width: 184px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-51xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 410px;
+  height: 60px;
+}
+.groupItem {
+  position: absolute;
+  top: 7px;
+  left: 357px;
+  border-radius: 50%;
+  background-color: var(--color-mediumaquamarine);
+  width: 46px;
+  height: 46px;
+}
+.arrowRight11Icon {
+  position: absolute;
+  top: 18px;
+  left: 368px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.enterYourEmailHereParent {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 410px;
+  height: 60px;
+}
+.getStartedNoewTryOurProduParent {
+  position: relative;
+  width: 410px;
+  height: 120px;
+  font-size: var(--medium-18-spcline35-size);
+  font-family: var(--font-inter);
+}
+.biccas,
+.frameParent {
+  position: absolute;
+  left: 85px;
+}
+.frameParent {
+  top: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-594xl);
+}
+.biccas {
+  top: 63px;
+  font-size: var(--b-50-size);
+  line-height: 30px;
+}
+.frameMainMenu {
+  position: absolute;
+  top: 217px;
+  left: 0;
+  width: 1440px;
+  height: 290px;
+}
+.thankYouFor {
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #126128;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.theProductIs {
+  margin: 0;
+}
+.theProductIsContainer {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.05em;
+  line-height: 35px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #484848;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: inline-block;
+  width: 892px;
+}
+.thankYouForYourInterestInParent {
+  position: absolute;
+  top: 0;
+  left: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--semib-32-size);
+}
+.contact {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 507px;
+  text-align: left;
+  font-size: var(--b-30-size);
+  color: var(--color-white);
+  font-family: var(--medium-18-spcline35);
+}

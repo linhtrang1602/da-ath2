@@ -1,0 +1,48 @@
+.frameChild {
+  object-fit: cover;
+}
+.frameChild,
+.groupSlideshowChild,
+.groupSlideshowInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 512px;
+}
+.groupSlideshowChild {
+  left: 5760px;
+}
+.frameDiv,
+.groupSlideshowInner1,
+.groupSlideshowInner2 {
+  position: absolute;
+  top: 0;
+  left: 1440px;
+  width: 1440px;
+  height: 512px;
+}
+.groupSlideshowInner1,
+.groupSlideshowInner2 {
+  left: 2880px;
+  background-image: url(/public/frame-5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.groupSlideshowInner2 {
+  left: 4320px;
+  background-image: url(/public/frame-6@3x.png);
+}
+.groupSlideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7200px;
+  height: 512px;
+}
+.property1default {
+  width: 1440px;
+  height: 512px;
+  overflow: hidden;
+}

@@ -1,0 +1,55 @@
+.mainMenuChild {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 77px;
+  z-index: 0;
+}
+.daAth {
+  position: absolute;
+  top: 6.5px;
+  left: 0;
+}
+.about,
+.main {
+  position: relative;
+  font-weight: 500;
+}
+.about {
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 245px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--medium-18-spcline35-size);
+  color: var(--color-black);
+}
+.mainMenu1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 17px;
+  left: 58px;
+  width: 1264px;
+  height: 42px;
+  z-index: 1;
+}
+.mainMenu {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgreen);
+  font-family: var(--medium-18-spcline35);
+}

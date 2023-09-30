@@ -1,0 +1,17 @@
+.landingPage,
+.landingPageChild {
+  background-color: var(--color-white);
+}
+.landingPageChild {
+  position: absolute;
+  top: calc(50% - 511.5px);
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1024px;
+}
+.landingPage {
+  position: relative;
+  width: 100%;
+  height: 3749px;
+  overflow: hidden;
+}

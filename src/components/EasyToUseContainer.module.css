@@ -1,0 +1,33 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-31xl) 0 var(--br-31xl) 0;
+  width: 100px;
+  height: 100px;
+}
+.aSimpleUserFriendly,
+.easyToUse {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 35px;
+}
+.aSimpleUserFriendly {
+  font-size: var(--medium-18-spcline35-size);
+  color: var(--color-black);
+  display: inline-block;
+  width: 252px;
+}
+.easyToUseParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameParent {
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--b-30-size);
+  color: var(--color-darkslategray);
+  font-family: var(--medium-18-spcline35);
+}

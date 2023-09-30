@@ -1,0 +1,11 @@
+.property1variant3Child {
+  position: relative;
+  width: 32px;
+  height: 8px;
+}
+.property1variant3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

@@ -1,0 +1,81 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  width: 378px;
+  height: 378px;
+  object-fit: cover;
+}
+.trnhThNgc {
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #484848;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fluentmail16RegularIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ngocem0601gmailcom {
+  position: relative;
+  line-height: 35px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #484848;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fluentmail16RegularParent,
+.iconoirdiscordParent,
+.phphoneLightParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.iconoirdiscordParent,
+.phphoneLightParent {
+  align-items: flex-start;
+}
+.iconoirdiscordParent {
+  align-items: flex-end;
+}
+.frameParent,
+.trnhThNgcAnhParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-5xl);
+  font-size: var(--medium-18-spcline35-size);
+}
+.trnhThNgcAnhParent {
+  gap: var(--gap-51xl);
+}
+.ellipseParent {
+  position: absolute;
+  top: 71px;
+  left: calc(50% - 444px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-101xl);
+}
+.memberssProfile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 520px;
+  text-align: left;
+  font-size: var(--semib-32-size);
+  font-family: var(--medium-18-spcline35);
+}
