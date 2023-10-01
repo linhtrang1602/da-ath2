@@ -20,9 +20,8 @@ const FormContainer = () => {
           src="/mask-group1@2x.png"
         />
         <div className={styles.recyclingAndWaste}>
-          Recycling and waste classification are simple ways to protect the
-          environment. If you are concerned about waste classification, let us
-          accompany you in environmental protection
+        Tái chế và phân loại rác là những cách cực kỳ đơn giản để bảo vệ môi trường. 
+        Nếu bạn đang quan tâm đến việc phân loại rác, hãy để chúng tôi đồng hành cùng bạn!
         </div>
         <Property1Default4 />
       </div>

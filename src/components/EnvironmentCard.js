@@ -10,15 +10,15 @@ const EnvironmentCard = () => {
       />
       <div className={styles.bothWeAndYouCareAboutTheParent}>
         <div className={styles.bothWeAnd}>
-          Both we and you care about the environment
+          Tất cả chúng ta đều quan tâm đến môi trường
         </div>
         <div className={styles.weUnderstandHow}>
-          We understand how important nature is to humanity. Now more than ever,
-          it's a time for us to realize the importance of environmental
-          protection. Please don't think of it as too big of an issue. We can
-          protect the environment through simple daily actions: waste sorting.
-          “I don't know which types of waste can be recycled and which cannot!”
-          Don't worry, let DA ATH help you with waste classifycation.
+          Chúng tôi hiểu tầm quan trọng của thiên nhiên đối với con người. Hơn bao 
+          giờ hết, chúng ta cần nâng cao tầm quan trọng của việc bảo vệ 
+          môi trường. Xin đừng coi đó là một vấn đề quá xa vời. Chúng ta có thể 
+          bảo vệ môi trường thông qua những hành động đơn giản hàng ngày như 
+          phân loại rác. "Nhưng tôi không biết đâu là rác hữu cơ còn đâu là rác vô cơ!" -
+          Đừng lo lắng, hãy để Da ATH giúp bạn phân loại rác nhé.
         </div>
       </div>
     </div>

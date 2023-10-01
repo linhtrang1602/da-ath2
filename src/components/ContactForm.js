@@ -7,7 +7,7 @@ const ContactForm = () => {
         <div className={styles.frameMainMenuChild} />
         <div className={styles.frameParent}>
           <div className={styles.contactUsNowParent}>
-            <b className={styles.contactUsNow}>Contact us now</b>
+            <b className={styles.contactUsNow}>Thông tin liên lạc</b>
             <div className={styles.biinstagramParent}>
               <img
                 className={styles.biinstagramIcon}
@@ -28,10 +28,10 @@ const ContactForm = () => {
           </div>
           <div className={styles.getStartedNoewTryOurProduParent}>
             <div className={styles.getStartedNoew}>
-              Get started noew try our product
+              Đăng ký trải nghiệm mới nhất
             </div>
             <div className={styles.enterYourEmailHereParent}>
-              <div className={styles.enterYourEmail}>Enter your email here</div>
+              <div className={styles.enterYourEmail}>Hãy nhập email</div>
               <div className={styles.groupChild} />
               <div className={styles.groupItem} />
               <img
@@ -42,18 +42,18 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <b className={styles.biccas}>Biccas</b>
+        <b className={styles.biccas}>Da ATH</b>
       </div>
       <div className={styles.thankYouForYourInterestInParent}>
         <div className={styles.thankYouFor}>
-          Thank you for your interest in our product.
+          Cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi!
         </div>
         <div className={styles.theProductIsContainer}>
           <p
             className={styles.theProductIs}
-          >{`The product is designed to serve the `}</p>
+          >{`Sản phẩm này được xây dựng trong khuôn khổ`}</p>
           <p className={styles.theProductIs}>
-            SheCodes Hackathon 2023 competition.
+            SheCodes Hackathon 2023.
           </p>
         </div>
       </div>

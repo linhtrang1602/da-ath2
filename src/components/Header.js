@@ -41,27 +41,27 @@ const Header = () => {
     <div className={styles.mainMenu}>
       <div className={styles.mainMenuChild} />
       <div className={styles.mainMenu1}>
-        <b className={styles.daAth}>DA ATH</b>
+        <b className={styles.daAth}>Da ATH</b>
         <div className={styles.menu}>
-          <div className={styles.main}>Main</div>
+          <div className={styles.main}>Trang chủ</div>
           <div className={styles.about} onClick={onAboutTextClick}>
-            About
+            Về Da ATH
           </div>
           <div className={styles.about} onClick={onProductTextClick}>
-            Product
+            Sản phẩm
           </div>
           <div className={styles.about} onClick={onMembersTextClick}>
-            Members
+            Đội phát triển
           </div>
           <div className={styles.about} onClick={onContactTextClick}>
-            Contact
+            Liên hệ
           </div>
         </div>
-        <Property1Default
+        {/* <Property1Default
           property1DefaultPosition="absolute"
           property1DefaultTop="0px"
           property1DefaultLeft="1096px"
-        />
+        /> */}
       </div>
     </div>
   );
