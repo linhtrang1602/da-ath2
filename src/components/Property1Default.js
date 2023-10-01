@@ -14,8 +14,13 @@ const Property1Default = ({
     };
   }, [property1DefaultPosition, property1DefaultTop, property1DefaultLeft]);
 
+  // a function to open demo link
+  const openDemo = () => {
+    window.open("https://qanhb-shecodes-da-ath-chatbot-gbcptb.streamlit.app/");
+  };
+
   return (
-    <div className={styles.property1default} style={property1DefaultStyle}>
+    <div className={styles.property1default} style={property1DefaultStyle} onClick={openDemo}>
       <div className={styles.letsClassify}>Dùng thử</div>
     </div>
   );

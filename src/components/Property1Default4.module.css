@@ -17,4 +17,5 @@
   font-size: var(--medium-18-spcline35-size);
   color: var(--color-white);
   font-family: var(--medium-18-spcline35);
+  cursor: pointer;
 }
