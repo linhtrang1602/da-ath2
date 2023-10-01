@@ -16,7 +16,7 @@ const Property1Default = ({
 
   return (
     <div className={styles.property1default} style={property1DefaultStyle}>
-      <div className={styles.letsClassify}>Dùng thử Da ATH</div>
+      <div className={styles.letsClassify}>Dùng thử</div>
     </div>
   );
 };

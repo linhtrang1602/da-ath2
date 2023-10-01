@@ -137,7 +137,7 @@
   width: 892px;
 }
 .thankYouForYourInterestInParent {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 252px;
   display: flex;

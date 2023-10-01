@@ -4,6 +4,7 @@
   font-weight: 600;
 }
 .property1default {
+  left: 1120px !important;
   border-radius: var(--br-mini);
   background-color: var(--color-seagreen);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);

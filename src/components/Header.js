@@ -57,11 +57,11 @@ const Header = () => {
             Liên hệ
           </div>
         </div>
-        {/* <Property1Default
+        <Property1Default
           property1DefaultPosition="absolute"
           property1DefaultTop="0px"
           property1DefaultLeft="1096px"
-        /> */}
+        />
       </div>
     </div>
   );

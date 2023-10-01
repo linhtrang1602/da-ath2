@@ -8,16 +8,16 @@
 .artboard41 {
   position: absolute;
   top: 0;
-  left: calc(50% - 280.23px);
+  left: calc(50% - 250.23px);
   width: 540.51px;
   height: 555.48px;
-  object-fit: cover;
+  object-fit: contain !important;
 }
 .groupRecyclePic,
 .maskGroupIcon {
   position: absolute;
   top: 0;
-  left: 629px;
+  left: 650px;
   width: 613.68px;
   height: 622px;
 }
@@ -39,7 +39,7 @@
   line-height: 35px;
   font-weight: 500;
   display: inline-block;
-  width: 677px;
+  width: 610px !important;
 }
 .maskGroupParent {
   position: absolute;
