@@ -155,7 +155,7 @@
 }
 .property1default {
   width: 1440px;
-  height: 520px;
+  height: auto;
   overflow: hidden;
   flex-shrink: 0;
   text-align: left;

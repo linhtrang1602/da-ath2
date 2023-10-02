@@ -20,7 +20,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-Kommunicate.init("15155aa4f4d3bcd6ceef567ae7c053a5d", {
+Kommunicate.init("525b21f19318899721d438286ab3dd5c", {
   automaticChatOpenOnNavigation: true,
   popupWidget: true
 });

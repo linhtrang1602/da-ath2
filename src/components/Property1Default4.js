@@ -1,7 +1,7 @@
 import styles from "./Property1Default4.module.css";
 
 const openDemo = () => {
-  window.open("https://google.com/");
+  window.open("https://qanhb-shecodes-da-ath-chatbot-gbcptb.streamlit.app/");
 };
 
 const Property1Default4 = () => {

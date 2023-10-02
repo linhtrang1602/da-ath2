@@ -152,7 +152,7 @@
   bottom: 0;
   left: calc(50% - 720px);
   width: 1440px;
-  height: 507px;
+  /* height: 507px; */
   text-align: left;
   font-size: var(--b-30-size);
   color: var(--color-white);
